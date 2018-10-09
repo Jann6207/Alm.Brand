@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    min-height: 100%;
+}
+
+
+
+body {
+    height: 100%;
+}
+
+/* VIGTIGT: Font Family til Display Font og Brødtekst ses nedenfor (Web Fonts - MÅ IKKE ÆNDRES) */
+
+h1 {
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    font-size: 24px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 26.4px;
+}
+
+p {
+    font-family: "Verdana", "Arial", sans-serif;
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    line-height: 26.4px;
+}
+
+/* Information til Display Font og Brødtekst hermed afsluttet */
