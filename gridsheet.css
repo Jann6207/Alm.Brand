@@ -799,7 +799,7 @@ i {
 
 
 .content3 {
-   background-color: rgb(3, 40, 70, 0.8);
+    background-color: rgb(3, 40, 70, 0.8);
 
 
     padding: 4%;
@@ -809,7 +809,7 @@ i {
 
 }
 
-.content3 h2  {
+.content3 h2 {
     font-weight: 700;
 }
 
@@ -908,7 +908,7 @@ i {
     font-size: 4vw;
     text-align: center;
     color: #032846;
-     font-weight: 700;
+    font-weight: 700;
     margin: auto;
 }
 
@@ -928,7 +928,7 @@ i {
 
 .grid-item20 p {
     text-align: center;
-     font-family: "Verdana", "Arial", sans-serif;
+    font-family: "Verdana", "Arial", sans-serif;
     font-size: 2.5vw;
     color: #032846;
 }
