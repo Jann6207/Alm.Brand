@@ -19,18 +19,18 @@
 
 .saxo a {
     text-decoration: none;
-    color:  #00b9ea;
+    color: #00b9ea;
 }
 
 .saxo a:hover {
     text-decoration: underline;
-   text-decoration-style: solid;
+    text-decoration-style: solid;
 
 
 }
 
 .first-nav {
-     font-family: "Verdana", "Arial", sans-serif;
+    font-family: "Verdana", "Arial", sans-serif;
     margin-bottom: 10%;
     position: absolute;
     color: #032846;
@@ -82,7 +82,7 @@
     color: white;
     border-radius: 50px;
     text-decoration: underline;
-    background-color:  #00b9ea;
+    background-color: #00b9ea;
 }
 
 .first-nav .skade a:hover {
@@ -90,7 +90,7 @@
 }
 
 .second-nav {
-     font-family: "Verdana", "Arial", sans-serif;
+    font-family: "Verdana", "Arial", sans-serif;
 
     position: absolute;
     top: 14%;
@@ -112,9 +112,9 @@
 
 }
 
-hr.style1{
+hr.style1 {
     opacity: 1;
-	border-top: 2px solid #00b9ea;
+    border-top: 2px solid #00b9ea;
     width: 0%;
     margin-right: 50%;
     margin-left: 50%;
@@ -158,7 +158,6 @@ hr.style1{
     z-index: 20;
 
 }*/
-
 
 ul {
 
@@ -334,6 +333,11 @@ li a {
 
 }
 
+.grid-item3 hr {
+    width: 10%;
+    margin-left: 44%;
+}
+
 i {
 
     color: #00B9EA;
@@ -342,8 +346,8 @@ i {
 
 .line2 {
 
-    width: 25%;
-    margin-left: 37.50%;
+    width: 10%;
+
     background-color: #00B9EA;
     color: #00B9EA;
     height: 2px;
@@ -552,9 +556,11 @@ i {
 }
 
 .grid-item7 {
-
+    overflow: hidden;
     margin-left: 4vh;
     margin-right: 4vh;
+
+
 }
 
 .grid-item7 video {
@@ -581,7 +587,7 @@ i {
     font-style: normal;
     font-variant: normal;
     font-weight: bold;
-    margin: 4%;
+
 
 }
 
@@ -600,12 +606,10 @@ i {
     height: 2px;
     border: none;
 
+
 }
 
-.pshort1 {
 
-    padding-right: 10%;
-}
 
 
 .grid-item8 p {
@@ -615,8 +619,11 @@ i {
     font-style: normal;
     font-variant: normal;
     line-height: 110%;
-    margin: 4%;
-    margin-bottom: 5%;
+
+
+
+
+
 
 }
 
@@ -1286,6 +1293,23 @@ i {
 
 @media screen and (min-width: 1024px) {
 
+    .grid-item7 video {
+
+        width: 85%;
+        margin-left: 7.5%;
+
+
+    }
+    .grid-item7 {
+
+
+        overflow: hidden;
+        margin-left: 4vh;
+        margin-right: 4vh;
+
+
+    }
+
     .row-grafik h3 {
         font-size: 1em;
 
@@ -1324,10 +1348,7 @@ i {
         padding: 10%;
     }
 
-    .grid-item6 {
-
-
-    }
+    .grid-item6 {}
     .grid-item6 h3 {
         padding-top: 5%;
         font-size: 5em;
@@ -1388,7 +1409,7 @@ i {
 
     .grid-item2 {
 
-        background-color: rgb(0, 185, 234, 1);
+        background-color: rgb(0, 185, 234, 0.95);
 
         margin-top: -38%;
         margin-left: 10%;
@@ -1433,13 +1454,24 @@ i {
     .line {
 
         width: 10%;
-        margin-left: 45%;
+        margin-left: 43.5%;
         background-color: white;
         color: white;
         height: 2px;
         border: none;
         margin-top: 3%;
         margin-bottom: -2%;
+
+    }
+
+    .grid-item3 .line2 {
+
+        width: 10%;
+
+
+
+
+
 
     }
 
@@ -1459,14 +1491,254 @@ i {
         font-variant: normal;
         font-weight: bold;
         margin: 4%;
+        margin-bottom: 2%;
 
     }
 
     .grid-item3 p {
+        margin-top: 2%;
         font-size: 1em;
+        margin-left: 18%;
+        margin-right: 18%;
+        text-align: left;
+
+    }
+
+    .grid-item8 {
+        z-index: 50;
+        text-align: center;
+    }
+
+    .grid-item8 h3 {
+        font-size: 2em;
     }
 
 
+    .grid-item8 p {
+        margin-top: 2%;
+        font-size: 1em;
+        margin-left: 18%;
+        margin-right: 18%;
+        text-align: left;
+
+    }
+
+
+    .line8 {
+
+        width: 10%;
+        margin-left: 45%;
+
+
+
+    }
+
+    .grid-item9 {
+        display: none;
+    }
+
+    .grid-item9_v1 {
+        margin-left: 4vh;
+        margin-right: 4vh;
+        margin-top: 4%;
+        margin-bottom: 4%;
+
+
+    }
+
+    .column4 {
+
+        display: flex;
+        float: left;
+        width: 33%;
+        justify-content: center;
+        padding: 0%;
+
+    }
+
+    .circle {
+
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        margin: 4%;
+        color: #fff;
+        text-align: center;
+        background: #032846;
+
+    }
+
+    .circle2 {
+
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        color: #fff;
+        text-align: center;
+        background: #032846;
+        text-align: center;
+
+    }
+
+    .circle3 {
+
+        width: 10vw;
+        height: 10vw;
+        border-radius: 50%;
+        color: #fff;
+        text-align: center;
+        background: #032846;
+        text-align: center;
+
+    }
+
+    .text {
+
+        font-family: "Georgia", "Times", "Times New Roman", serif;
+        font-size: 1.5em;
+        color: #ffffff;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        padding-top: 38%;
+
+
+    }
+
+    .text2 {
+
+        font-family: "Georgia", "Times", "Times New Roman", serif;
+        font-size: 1.5em;
+        color: #ffffff;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        padding-top: 30%;
+
+
+    }
+
+
+    .text3 {
+
+        font-family: "Georgia", "Times", "Times New Roman", serif;
+        font-size: 1.5em;
+        color: #ffffff;
+        font-style: normal;
+        font-variant: normal;
+        font-weight: bold;
+        padding-top: 38%;
+
+    }
+
+
+
+    /* DE 3 CIRKLER START
+
+    .grid-item9 {
+
+    margin-left: 4vh;
+    margin-right: 4vh;
+
+}
+
+.column1,
+.column2 {
+
+    display: flex;
+    float: left;
+    width: 50%;
+    justify-content: space-around;
+
+}
+
+/* SKAL IKKE BRUGES
+.column1, .column2 {
+*/
+    /*
+.column3 {
+
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+
+.text {
+
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    padding-top: 38%;
+
+
+}
+
+.circle {
+
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    margin: 4%;
+    color: #fff;
+    text-align: center;
+    background: #032846;
+
+}
+
+.text2 {
+
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    padding-top: 30%;
+
+
+}
+
+.circle2 {
+
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background: #032846;
+    text-align: center;
+
+}
+
+.text3 {
+
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    font-size: 1.5em;
+    color: #ffffff;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: bold;
+    padding-top: 38%;
+
+}
+
+.circle3 {
+
+    width: 10vw;
+    height: 10vw;
+    border-radius: 50%;
+    color: #fff;
+    text-align: center;
+    background: #032846;
+    text-align: center;
+
+}
+
+*/
 }
 
 @media screen and (max-width: 600px) {
