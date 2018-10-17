@@ -730,6 +730,10 @@ i {
 
 }
 
+.grid-item9_v1 {
+    display: none;
+}
+
 .grid-item10 {
 
     background-color: aquamarine;
@@ -1292,6 +1296,67 @@ i {
 
 
 @media screen and (min-width: 1024px) {
+
+    .grid-item10 {
+
+    background-color: transparent;
+    height: 80%;
+    overflow: hidden;
+    margin-top: 0%;
+    margin-bottom: 4%;
+    margin-left: 4vh;
+    margin-right: 4vh;
+}
+
+.grid-item10 img {
+
+    width: 50%;
+    transform: translateY(-40px);
+}
+
+.img2 {
+
+    margin-bottom: -30px;
+    height: 80%;
+}
+
+
+.grid-item11 {
+
+    background-color: transparent;
+    z-index: 10;
+
+
+    overflow: hidden;
+
+    margin-left: 5%;
+    margin-right: 52%;
+
+}
+
+    .blue_firkant {
+        background-color: rgb(3, 40, 70, 0.98);
+        margin-left: 0%;
+        margin-right: 0%;
+        margin-bottom: 0%;
+        margin-top: 9%;
+        padding-top: 3%;
+        padding-bottom: 5%;
+    }
+
+.grid-item11 h1 {
+
+    font-family: "Georgia", "Times", "Times New Roman", serif;
+    font-size: 1.8em;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+
+    color: white;
+    text-align: center;
+    margin-top: 5.5%;
+
+}
 
     .grid-item7 video {
 
