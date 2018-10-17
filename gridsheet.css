@@ -1570,6 +1570,7 @@ i {
         text-align: center;
         background: #032846;
 
+
     }
 
     .circle2 {
@@ -1635,12 +1636,15 @@ i {
 
     }
 
+
+
     /* CIRKEL 1 START*/
 
-.tooltip {
+   .tooltip {
     position: relative;
     display: inline-block;
     z-index: 100;
+
 
 }
 
@@ -1656,12 +1660,15 @@ i {
     z-index: 1;
     bottom: 100%;
     left: 50%;
-    margin-left: -150px;
-    margin-bottom: 130px;
+    margin-left: -140px;
+
 
      /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
-   visibility: hidden;
-    transition: ease 0.5s;
+
+
+    visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
 }
 
 .tooltip .tooltiptext::after {
@@ -1674,11 +1681,22 @@ i {
     border-style: solid;
     border-color:  #00B9EA transparent transparent transparent;
 
+
 }
 
-.tooltip:hover .tooltiptext {
+.tooltip:hover .tooltiptext{
     visibility: visible;
+
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+
 }
+
+
+
+
+
+
 
     .column4 span {
          font-family: "Verdana", "Arial", sans-serif;
@@ -1693,9 +1711,13 @@ i {
         font-weight: 100;
     }
 
+
+
+
+
     /* CIRKEL 1 SLUT*/
 
-
+    /* CIRKEL 2 START*/
 .tooltip2 {
     position: relative;
     display: inline-block;
@@ -1719,8 +1741,9 @@ i {
     margin-bottom: 0px;
 
      /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
-    opacity: 0;
-    transition: opacity 0.5s;
+    visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
 }
 
 .tooltip2 .tooltiptext2::after {
@@ -1736,8 +1759,64 @@ i {
 }
 
 .circle2:hover .tooltiptext2 {
-    opacity: 1;
+       visibility: visible;
+
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
 }
+
+/*CIRKEL 2 SLUT*/
+
+/*CIRKEL 3 START */
+
+    .tooltip3 {
+    position: relative;
+    display: inline-block;
+    z-index: 100;
+
+}
+
+.tooltip3 .tooltiptext3 {
+
+    width: 300px;
+    background-color: #00B9EA;
+    color: #fff;
+    text-align: left;
+    border-radius: 6px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+    bottom: 104%;
+    left: 50%;
+    margin-left: -150px;
+    margin-bottom: 0px;
+
+     /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+   visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s linear 300ms, opacity 300ms;
+}
+
+.tooltip3 .tooltiptext3::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color:  #00B9EA transparent transparent transparent;
+
+}
+
+.tooltip3:hover .tooltiptext3 {
+       visibility: visible;
+
+  opacity: 1;
+  transition: visibility 0s linear 0s, opacity 300ms;
+}
+
+    /*CIRKEL 3 SLUT*/
 
     /* DE 3 CIRKLER START
 
