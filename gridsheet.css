@@ -1439,6 +1439,8 @@ i {
     .column10 img{
         width: 100%;
 
+
+
     }
 
 
@@ -1831,6 +1833,12 @@ float: right;
     width: 50%;
 }
 
+    .split p {
+        font-family: "Verdana", "Arial", sans-serif;
+    font-size: 0.7em;
+        text-align: left;
+
+    }
 
 .grid-item11 {
 
