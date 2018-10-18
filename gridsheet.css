@@ -1125,6 +1125,7 @@ i {
 .img-container img {
     position: relative;
     bottom: 0%;
+    width: 100%;
 
 
 
@@ -1139,10 +1140,10 @@ i {
 
     background-color: #032846;
 
-    margin-top: -10%;
-
-    transform: translateX(-100px);
-    Width: 250%;
+    margin-bottom: -10%;
+    transform: scale(2.6);
+    overflow: visible;
+    Width: 100%;
 
 
 
@@ -1189,6 +1190,8 @@ i {
     margin-bottom: -0%;
         overflow: hidden;
 }
+
+
 
     .cookies {
     margin: 2%;
@@ -1257,15 +1260,21 @@ i {
     .content_footer2 hr {
         position: relative;
         z-index: 100;
+        overflow: visible;
     }
     .content_footer2 {
         text-align: center;
-        margin-top: 35%;
+        margin-top: 40%;
         font-size: 0.6em;
         overflow: visible;
 
 
     }
+
+    .conten_footer2 .info {
+
+    }
+
  .grid-item20 .headset_asset img {
     width: 5%;
     margin-left: 47.5%;
