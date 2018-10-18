@@ -728,9 +728,17 @@ i {
 .grid-item14 video {
 
     width: 100%;
-    margin-top: -4vh;
+    margin-top: 0%;
 
 }
+
+.grid-item14 img {
+    width: 95%;
+    margin-top: -10%;
+    margin-bottom: -10%;
+
+}
+
 
 
 /* SKAL IKKE BRUGES */
@@ -1181,7 +1189,26 @@ i {
 
 @media screen and (min-width: 1024px) {
 
+    .ansoeg {
 
+         font-family: "Verdana", "Arial", sans-serif;
+    font-size: 1em;
+    color: #032846;
+
+        text-align: center;
+        margin-top: -2%;
+        margin-bottom: 4%;
+        padding-top: 1%;
+        padding-bottom:1%;
+        border: solid;
+        border-color: #d3d3d3;
+        margin-left: 35%;
+        margin-right: 35%;
+        color: white;
+        background-color:#032846;
+        border-radius: 50px;
+
+    }
 
     .img-container img {
     position: relative;
@@ -1262,19 +1289,24 @@ i {
     .content_footer2 hr {
         position: relative;
         z-index: 100;
-        overflow: visible;
+
     }
     .content_footer2 {
         text-align: center;
-        margin-top: 40%;
+        margin-top: 35%;
         font-size: 0.6em;
-        overflow: visible;
+
+
 
 
     }
 
-    .conten_footer2 .info {
-
+   .info {
+margin:4%;
+       color: white;
+       overflow: hidden;
+       z-index: 50;
+       position: relative;
     }
 
  .grid-item20 .headset_asset img {
@@ -1441,8 +1473,13 @@ i {
 
 
 
+
     }
 
+    .column10 .img3 {
+        padding-bottom: 2.5%;
+         background-color: #ebf6fc;
+    }
 
 
 .content10 {
@@ -1545,14 +1582,45 @@ i {
         margin-right: 4vh;
 
     }
+    .grid-item14 h3 {
+        font-family: "Georgia", "Times", "Times New Roman", serif;
+        font-size: 2em;
+        font-weight: 700;
+        text-align: center;
 
+    }
      .grid-item14 video {
 
-        width: 85%;
-        margin-left: 7.5%;
+        width: 60%;
+        margin-left: 20%;
 
 
     }
+
+    .grid-item14 p {
+         font-family: "Verdana", "Arial", sans-serif;
+    font-size: 0.7em;
+        text-align: left;
+        margin-bottom: 4%;
+        margin-left: 20%;
+    }
+
+    .grid-item14 hr {
+
+
+
+
+     color: #00b9ea;
+        background-color:#00b9ea;
+        height: 2px;
+        width: 7%;
+        margin-left: 46.5%;
+        box-shadow: none;
+        border: none;
+        margin-top: 1.5%;
+        margin-bottom: 1.5%;
+}
+
 
 .grid-item13 {
 
@@ -1563,6 +1631,7 @@ i {
 
 
 }
+
 
 
 .grid-item13 h1 {
@@ -2108,7 +2177,7 @@ float: right;
     }
 
     .grid-item3 {
-        margin-top: -22%;
+        margin-top: -15%;
         z-index: 50;
         margin-bottom: 3%;
         text-align: center;
@@ -2243,10 +2312,7 @@ float: right;
 
 
     .column5 h4 {
-        font-family: "Georgia", "Times", "Times New Roman", serif;
-        font-size: 1.5em;
-        font-weight: 700;
-        text-align: center;
+
     }
 
     .column5 video {
@@ -2265,7 +2331,7 @@ float: right;
         display: flex;
         float: left;
         width: 30%;
-
+        margin-bottom: 5%;
         justify-content: center;
         padding: 0%;
 
