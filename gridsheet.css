@@ -1181,6 +1181,8 @@ i {
 
 @media screen and (min-width: 1024px) {
 
+
+
     .img-container img {
     position: relative;
     bottom: -20%;
@@ -1557,6 +1559,7 @@ i {
     margin-left: 0%;
     margin-right: 38%;
 
+
 }
 
 
@@ -1601,7 +1604,34 @@ i {
 
     padding-left: 20%;
     background-color: rgb(0, 185, 234, 0.98);
+
 }
+ .content13 {
+     height: 350px;
+
+    padding-top: 15%;
+     padding-right: 10%;
+
+
+    }
+
+    .content13 i {
+        color: white;
+    }
+
+    .content .content13 {
+        margin-left: -10%;
+    }
+    .content13 hr {
+    width: 25%;
+    background-color: white;
+    color: white;
+    height: 1px;
+    border: none;
+    text-align: left;
+
+
+    }
 
 
 .grid-item12 {
