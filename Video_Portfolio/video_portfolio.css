@@ -1,0 +1,76 @@
+body{
+
+    margin: 0;
+    padding: 0;
+    background-color: #d9d9d9;
+}
+
+*{font-family: "verdana", sans-serif;
+    text-transform: uppercase;
+    color: #032846;
+    }
+
+h1{
+
+    text-align: center;
+
+}
+
+h3{
+    text-align: center;
+    color: #00B9EA
+
+}
+.video_wrapper{
+
+    padding: 50px;
+}
+
+video{
+
+    width: 100%;
+    box-shadow: 10px 10px 10px grey;
+
+}
+
+
+@media only screen and (min-width: 600px) {
+    body {
+
+    }
+
+    .grid_con{
+
+        display: grid;
+        grid-template-areas:
+            "a a b b"
+            ". c c ."
+            "d d e e";
+
+    }
+
+    .video_1{
+
+      grid-area: a;
+    }
+
+    .video_2{
+
+        grid-area: b;
+
+    }
+
+    .video_3{
+
+        grid-area: c;
+
+    }
+
+    .video_4{
+        grid-area: d;
+    }
+
+    .video_5{
+        grid-area: e;
+    }
+}
